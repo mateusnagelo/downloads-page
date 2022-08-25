@@ -93,7 +93,7 @@ footer {
 *:before,
 *:after {
     margin: 0;
-    padding: 0;
+    padding: 1;
     box-sizing: border-box;
 }
 
@@ -103,13 +103,14 @@ footer {
 } */
 
 .menu {
-    background: #fff;
+    background: #ffff;
     border-radius: 50%;
     width: 60px;
     height: 60px;
     bottom: 25px;
     right: 25px;
     position: static;
+    cursor: pointer;
     /* position: fixed; */
 }
 
